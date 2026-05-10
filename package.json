@@ -1,0 +1,18 @@
+{
+  "name": "sicsun-ai-api",
+  "version": "1.0.0",
+  "description": "API dự đoán Tài Xỉu bằng AI Chip",
+  "main": "sicsun.js",
+  "type": "module",
+  "scripts": {
+    "start": "node sicsun.js",
+    "dev": "node --watch sicsun.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^9.0.0",
+    "fastify": "^4.26.0",
+    "node-fetch": "^3.3.2"
+  }
+}
